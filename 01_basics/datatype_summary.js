@@ -53,3 +53,32 @@ console.log(typeof heros);
        Function  =>  function
        Object  =>  object
 */
+
+
+//**********************************************************************
+
+//Stack (Primitive) //copied value , Heap (Non Primitive)// reference 
+
+
+//stack
+let myYoutubeName = "hahaFunItIs"
+let anothername= myYoutubeName
+anothername = "itsnwechannel"
+console.log(myYoutubeName)
+console.log(anothername) //because above the copied is given so it is changed
+
+
+//heap
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl",
+}
+// here in user2 it is given the same reference as user1, not the copy
+let user2 = user1;
+
+user2.email = "drishti@google.com";
+
+console.log(user1.email);
+console.log(user2.email); // so both values are changed
+
+
