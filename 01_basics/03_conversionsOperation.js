@@ -41,3 +41,40 @@ console.log(stringNumber);
 console.log(typeof stringNumber);
 
 
+
+//Operations***********************8
+
+let newValue = 3
+let negValue = -newValue
+console.log(negValue);
+
+/*
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+*/
+let str1=  "hello"
+let str2= " drishti "
+
+let str3= str1+str2
+console.log(str3);
+
+console.log("1" + 2); //12
+console.log(1+ "2"); //12
+console.log("1" +2+2); //here 2+2 is not 4
+console.log(1+2+ "2"); //here 1+2 is added to 3
+
+console.log(+true); //1
+//console.log(true+) // error
+console.log(+"") //0
+
+let  gameCounter = 100
+gameCounter++;
+console.log(gameCounter);
+
+let  gameCounter2 = 100
+gameCounter2++;
+console.log(gameCounter2);
